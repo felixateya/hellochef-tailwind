@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Hellochef</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d6f91ed192.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style></style>
+  <body>
+    <section class="flex flex-col relative">
+      <nav
+        class="flex z-100 items-center justify-between pl-2 pr-28 h-[55px] border-b-2 border-stone-50 w-full bg-zinc-50"
+      >
+        <h2 class="text-2xl ml-2 lg:ml-9 font-extrabold text-[#e42a11]">
+          hell&oacute;chef
+        </h2>
+        <ul class="hidden lg:flex gap-4 items-center">
+          <li class="text-md sm:text-lg"><a href="">Our Plans</a></li>
+          <li class="text-md sm:text-lg"><a href="">Weekly Menu</a></li>
+          <li class="text-md sm:text-lg"><a href="">How It Works</a></li>
+          <button
+            class="ml-2 px-4 py-2 bg-[#e42a11] text-stone-50 text-xl rounded-full font-semibold"
+          >
+            Sign in
+          </button>
+        </ul>
+      </nav>
+      <main
+        class="flex flex-col items-center justify-center bg-[url(./assets/mobile-banner.webp)] bg-bottom sm:bg-[url(./assets/banner.webp)] w-full h-[86vh] bg-cover sm:bg-center"
+      >
+        <h1
+          class="mt-10 text-stone-600 font-extrabold text-center sm:w-[35%] mb-8 text-4xl sm:text-5xl"
+        >
+          Say hello to a new way of cooking
+        </h1>
+        <p class="text-xl text-stone-400 mb-8 sm:w-[25%] text-center">
+          Delicious recipes. Delivered by us, made by you. Ready to unbox
+          mealtime?
+        </p>
+        <button
+          class="bg-[#e42a11] text-xl hover:bg-red-700 transition duration-300 ease-in-out text-stone-50 font-semibold px-[60px] py-[20px] rounded-full"
+        >
+          Get Started
+        </button>
+      </main>
+    </section>
+    <section
+      class="w-full h-max sm:h-[90vh] pb-10 bg-stone-50 flex flex-col items-center"
+    >
+      <h1 class="sm:text-3xl text-2xl mt-10 font-bold text-stone-600">
+        Why choose us?
+      </h1>
+      <p class="sm:text-lg text-sm w-[90%] text-stone-500 mt-6 text-center">
+        Eat well for less with impressively easy meals starting from AED 35 per
+        serving.
+      </p>
+      <div
+        class="flex flex-col sm:flex-row items-center justify-center h-[60%] mt-12 gap-8 w-full px-6"
+      >
+        <div class="flex flex-col">
+          <img
+            class="rounded-lg w-[95%] sm:w-[320px] h-[180px]"
+            src="./assets/box_over.webp"
+            alt=""
+          />
+          <h2 class="text-3xl mt-3 mb-2 font-semibold text-stone-600">
+            Convinience
+          </h2>
+          <ul class="gap-2 flex flex-col sm:w-[320px]">
+            <li class="text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span>Pre-measured ingredients & easy recipes</span>
+            </li>
+            <li class="text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span>Contactless, doorstep delivery across UAE</span>
+            </li>
+            <li class="text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span>Skip a delivery or cancel anytime</span>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <img
+            class="rounded-lg w-[320px] h-[180px]"
+            src="./assets/variety-hi.webp"
+            alt=""
+          />
+          <h2 class="text-3xl mt-3 mb-2 font-semibold text-stone-600">
+            Variety
+          </h2>
+          <ul class="gap-2 flex flex-col sm:w-[310px]">
+            <li class="text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span>New recipes every week</span>
+            </li>
+            <li class="text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <spa>24+ dishes to choose from</spa>
+            </li>
+            <li class="text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span>Low-calorie & family-friendly options</span>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <img
+            class="rounded-lg w-[95%] sm:w-[320px] h-[180px] mt-6"
+            src="./assets/salmon_katsu.webp"
+            alt=""
+          />
+          <h2 class="text-3xl mt-3 mb-2 font-semibold text-stone-600">
+            Deliciousness
+          </h2>
+          <ul class="gap-2 flex flex-col sm:w-[335px]">
+            <li class="text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span>No skimpin' on the portion size!</span>
+            </li>
+            <li class="flex items-center text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span class="ml-1"
+                >100% satisfaction guarantee, or we will make it right</span
+              >
+            </li>
+            <li class="flex items-center text-sm">
+              <i
+                class="fa-solid fa-check text-green-400 font-black text-sm"
+              ></i>
+              <span class="ml-1"
+                >Fresh ingredients from local, trusted suppliers</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="flex flex-col-reverse sm:flex-row h-max sm:h-[80vh] w-full">
+      <div
+        class="bg-[url(./assets/Family_cooking.webp)] bg-cover bg-left w-[100%] h-[400px] sm:h-[100%] sm:w-[50%]"
+      ></div>
+      <div
+        class="bg-red-100 pt-8 flex flex-col w-[100%] h-max sm:h-[100%] sm:w-[50%] sm:pt-[90px]"
+      >
+        <h2 class="ml-4 sm:ml-20 text-[#e42a11] text-3xl font-semibold">
+          How it works
+        </h2>
+        <p class="ml-4 sm:ml-20 mt-4 text-[15px] text-stone-700">
+          Simplify home cooking in just 4 easy steps. Get quality ingredients &
+          great recipes delivered to your door.
+        </p>
+        <ul class="ml-4 mb-8 sm:ml-20 mt-6">
+          <li class="flex items-center">
+            <span class="font-extrabold text-2xl mr-4 text-[#ff946e]">1</span
+            ><span class="my-2 text-sm font-semibold">Select your box</span>
+          </li>
+          <li class="flex items-center">
+            <span class="font-extrabold text-2xl mr-4 text-[#ff946e]">2</span
+            ><span class="my-2 text-sm font-semibold">Choose your recipes</span>
+          </li>
+          <li class="flex items-center">
+            <span class="font-extrabold text-2xl mr-4 text-[#ff946e]">3</span
+            ><span class="my-2 text-sm font-semibold"
+              >Receive your delivery</span
+            >
+          </li>
+          <li class="flex items-center">
+            <span class="font-extrabold text-2xl mr-4 text-[#ff946e]">4</span
+            ><span class="my-2 text-sm font-semibold"
+              >Cook, eat and enjoy!</span
+            >
+          </li>
+        </ul>
+        <button
+          class="ml-4 sm:ml-20 mb-8 rounded-full text-lg w-[200px] text-stone-50 font-semibold bg-[#e42a11] px-4 py-2 hover:bg-red-700 transition duration-300 ease-in-out"
+        >
+          Learn more
+        </button>
+      </div>
+    </section>
+    <section
+      class="flex flex-col items-center justify-center p-4 h-max lg:h-[120vh] w-full bg-[#F3F4F6]"
+    >
+      <h2
+        class="text-stone-600 mt-4 flex text-center underline font-bold text-4xl"
+      >
+        <img class="w-12 h-12 mr-2" src="./assets/instagram.webp" alt="" />
+        #hellochef
+      </h2>
+      <div
+        class="flex flex-wrap items-center sm:flex-row w-full h-[50%] mt-4 justify-center gap-6"
+      >
+        <img
+          class="w-[42%] h-28 sm:w-[280px] sm:h-[250px]"
+          src="./assets/dxblivin-credit.webp"
+          alt=""
+        />
+        <img
+          class="w-[42%] h-28 sm:w-[280px] sm:h-[250px]"
+          src="./assets/ayshasaiha.webp"
+          alt=""
+        />
+        <img
+          class="w-[42%] h-28 sm:w-[280px] sm:h-[250px]"
+          src="./assets/shrimply.webp"
+          alt=""
+        />
+        <img
+          class="w-[42%] h-28 sm:w-[280px] sm:h-[250px]"
+          src="./assets/ashley_dxb.webp"
+          alt=""
+        />
+      </div>
+      <div
+        class="flex flex-col text-3xl text-stone-500 mt-4 sm:gap-2 font-normal text-center"
+      >
+        <h2>Over <span class="text-[#e42a11]">3 million meals</span></h2>
+        <h2>Cooked and loved by our customers</h2>
+      </div>
+      <div class="mt-4 flex">
+        <div class="flex gap-2 justify-center items-center">
+          <p>4.9</p>
+          <div class="flex gap-[1px]">
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star-half-stroke text-lg text-amber-500"></i>
+          </div>
+        </div>
+        <div class="ml-4 flex items-center justify-center gap-[4px]">
+          <p>350+ reviews on</p>
+          <img class="w-16 h-[24px]" src="./assets/google.webp" alt="" />
+        </div>
+      </div>
+      <!-- <div class="rounded-lg w-[70%] hover:border-solid border-[1px] hover:border-[#e42a11] transition ease-in-out h-[100px] mt-10 cursor-pointer bg-[#fff]"></div> -->
+    </section>
+    <section
+      class="bg-[#FFF4EE] lg:bg-[url(./assets/subscribe.webp)] pt-4 pb-6 flex flex-col gap-10 justify-center items-center bg-cover bg-left w-full h-max lg:h-[80vh]"
+    >
+      <div class="lg:w-[65%] w-[85%] h-[50%] bg-[#fff] rounded-lg p-4">
+        <h2
+          class="lg:text-3xl text-2xl text-stone-600 font-semibold text-center"
+        >
+          Hungry for more?
+        </h2>
+        <p class="mt-4 text-stone-400 text-center">
+          Sign up to our newsletter for exciting updates and weekly recipe
+          inspiration, delivered straight to your inbox.
+        </p>
+        <div class="mt-6 flex items-center justify-center">
+          <div class="flex flex-col">
+            <label class="text-[12px] text-stone-500" for="email"
+              >Email address</label
+            ><input
+              class="border-solid w-36 lg:w-[280px] border-stone-300 border-[1px] p-2 rounded-l-lg"
+              id="email"
+              type="email"
+            />
+          </div>
+          <button
+            class="bg-[#e42a11] h-[43px] font-semibold text-white px-2 py-[1px] mt-4 rounded-r-lg"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <p class="lg:w-[50%] w-[85%] text-center text-[12.7px] text-stone-300">
+        We are a weekly meal subscription service based in Dubai, delivering
+        pre-portioned ingredients and easy-to-follow recipe cards across the
+        UAE. Our healthy meal delivery service means you can say goodbye to
+        stressful meal planning and instead, spend time enjoying delicious food
+        with loved ones. Our pre-measured, ready-to-cook boxes make it easier
+        than ever for you to discover new flavours every week.
+      </p>
+    </section>
+    <section
+      class="w-full h-max lg:h-[80vh] bg-[#FAFAFA] flex flex-col items-center justify-center"
+    >
+      <h2 class="text-2xl ml-2 lg:ml-9 font-extrabold text-[#e42a11]">
+        hell&oacute;<span class="ml-[1.5px]">chef</span>
+      </h2>
+      <div
+        class="flex flex-col lg:flex-row justify-evenly w-full lg:w-[85%] lg:p-4"
+      >
+        <div
+          class="flex w-full px-4 lg:w-[50%] py-2 border-solid border-y-[1px] lg:border-0 border-stone-300 justify-evenly"
+        >
+          <div class="w-[48%] lg:w-[25%] flex gap-2 flex-col">
+            <h4 class="font-semibold text-stone-600">About us</h4>
+            <p class="text-stone-400 cursor-pointer">Our plans</p>
+            <p class="text-stone-400 cursor-pointer">How it works</p>
+          </div>
+          <div
+            class="w-[48%] lg:w-[25%] gap-2 items-end flex flex-col lg:items-start"
+          >
+            <h4 class="font-semibold text-stone-600">More info</h4>
+            <p class="text-stone-400 cursor-pointer">Sustainability</p>
+            <p class="text-stone-400 cursor-pointer">B Corp</p>
+            <p class="text-stone-400 cursor-pointer">Help center</p>
+          </div>
+        </div>
+        <div
+          class="flex w-full px-4 lg:w-[50%] py-2 border-solid border-b-[1px] lg:border-0 border-stone-300 justify-evenly"
+        >
+          <div class="w-[48%] lg:w-[33%] gap-2 flex flex-col">
+            <h4 class="font-semibold text-stone-600">Work with us</h4>
+            <p class="text-stone-400 cursor-pointer">Carrers</p>
+            <p class="text-stone-400 cursor-pointer">Affiliate programs</p>
+          </div>
+          <div
+            class="hidden lg:flex gap-2 flex-col items-end w-[48%] lg:w-[33%]"
+          >
+            <h4 class="font-semibold text-stone-600">Our blog</h4>
+            <img class="w-16 rounded-lg" src="./assets//sustain.webp" alt="" />
+            <p
+              class="text-stone-400 cursor-pointer w-full flex flex-col items-end"
+            >
+              Our key sustainability <span>highlights in 2023</span>
+            </p>
+          </div>
+          <div class="flex flex-col gap-2 items-end w-[48%] lg:w-[33%]">
+            <h4 class="font-semibold text-stone-600">Contact us</h4>
+            <p class="text-stone-400 cursor-pointer">hello@hellochef.me</p>
+            <p class="text-stone-400 cursor-pointer">04 383 93 99</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col h-max lg:flex-row w-full lg:w-[73%] justify-evenly">
+        <div
+          class="flex w-full p-4 items-center lg:items-start lg:w-[33%] flex-col"
+        >
+          <h3 class="text-sm font-semibold text-stone-600">
+            Subscribe to our newsletter
+          </h3>
+          <div class="mt-2 flex items-center justify-center">
+            <div class="flex flex-col">
+              <label class="text-[12px] text-stone-500" for="email-footer"
+                >Enter your email</label
+              ><input
+                class="border-solid focus:outline focus:border-none focus:outline-[#e42a11] focus:outline-[0.5px] w-36 lg:w-[200px] border-stone-300 border-[1px] p-2 rounded-l-lg"
+                id="email-footer"
+                type="email"
+              />
+            </div>
+            <button
+              class="bg-[#e42a11] h-[43px] font-semibold text-white px-2 py-[1px] mt-[17px] rounded-r-lg"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+        <div class="lg:flex hidden flex-col w-full p-4 lg:w-[33%] items-end">
+          <h3>See Our Google Reviews</h3>
+          <div class="flex gap-[1.5px] justify-center items-center">
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star text-lg text-amber-500"></i>
+            <i class="fa-solid fa-star-half-stroke text-lg text-amber-500"></i>
+            <img src="./assets//google-g.png" alt="" class="w-6 h-6 ml-2" />
+          </div>
+        </div>
+        <div
+          class="flex w-full lg:border-none border-y-2 border-y-stone-300 border p-4 lg:w-[33%] flex-col items-center lg:items-end"
+        >
+          <h3>Follow us</h3>
+          <div class="flex gap-4 text-stone-400 text-2xl">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-solid fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <footer class="flex my-6 flex-col">
+        <h3 class="text-center">
+          Made with <i class="fa-solid text-[#e42a11] fa-heart"></i> for UAE
+        </h3>
+        <p class="text-sm text-center">
+          &copy; Copyright 2024 Hello Chef All rights reserved.
+          <a class="hover:underline text-[#e42a11]" href="">
+            Public Policies & Statements</a
+          >
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
