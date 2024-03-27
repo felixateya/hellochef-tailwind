@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
-    <title>Hellochef</title>
+    <title>Hello chef</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./styles.css" />
     <script
@@ -12,47 +12,46 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <style></style>
   <body>
-    <section class="flex flex-col h-max relative">
+    <section class="flex flex-col h-[87vh] relative">
       <nav
-        class="flex z-100 items-center justify-between pl-2 pr-28 h-[55px] border-b-2 border-stone-50 w-full bg-zinc-50"
+        class="flex z-100 items-center justify-between pl-2 pr-10 h-[65px] border-b-2 border-stone-50 w-full bg-zinc-50"
       >
-        <h2 class="text-2xl ml-2 lg:ml-9 font-extrabold text-[#e42a11]">
-          hell&oacute;chef
+        <h2 class="text-[24px] ml-2 lg:ml-9 font-extrabold text-[#e42a11]">
+          hell&oacute;<span class="ml-[1px]">chef</span>
         </h2>
         <ul class="hidden lg:flex gap-4 items-center">
-          <li class="text-md sm:text-lg"><a href="">Our Plans</a></li>
-          <li class="text-md sm:text-lg"><a href="">Weekly Menu</a></li>
-          <li class="text-md sm:text-lg"><a href="">How It Works</a></li>
+          <li class="text-sm"><a href="">Our Plans</a></li>
+          <li class="text-sm"><a href="">Weekly Menu</a></li>
+          <li class="text-sm"><a href="">How It Works</a></li>
           <button
-            class="ml-2 px-4 py-2 bg-[#e42a11] text-stone-50 text-xl rounded-full font-semibold"
+            class="ml-2 px-4 py-3 bg-[#e42a11] text-stone-50 text-sm rounded-full font-semibold"
           >
             Sign in
           </button>
         </ul>
       </nav>
       <main
-        class="flex flex-col items-center justify-center bg-[url(./assets/mobile-banner.webp)] bg-bottom sm:bg-[url(./assets/banner.webp)] w-full h-max pb-4 lg:h-[86vh] bg-cover sm:bg-center"
+        class="flex flex-col items-center justify-center bg-[url(./assets/mobile-banner.webp)] bg-bottom sm:bg-[url(./assets/banner.webp)] w-full h-max pb-4 lg:h-[86vh] bg-cover sm:bg-top"
       >
         <h1
-          class="mt-10 text-stone-600 font-extrabold text-center sm:w-[35%] mb-8 text-4xl sm:text-5xl"
+          class="mt-20 text-stone-600 font-extrabold text-center sm:w-[30%] mb-8 text-3xl sm:text-4xl"
         >
           Say hello to a new way of cooking
         </h1>
-        <p class="text-xl text-stone-400 mb-8 sm:w-[25%] text-center">
+        <p class="text-xl text-stone-400 mb-8 sm:w-[29%] text-center">
           Delicious recipes. Delivered by us, made by you. Ready to unbox
           mealtime?
         </p>
         <button
-          class="bg-[#e42a11] text-xl hover:bg-red-700 transition duration-300 ease-in-out text-stone-50 font-semibold px-[60px] py-[20px] rounded-full"
+          class="bg-[#e42a11] text-xl hover:bg-red-700 transition duration-300 ease-in-out text-stone-50 font-semibold px-[60px] py-[15px] rounded-full"
         >
           Get Started
         </button>
       </main>
     </section>
     <section
-      class="w-full h-max lg:h-[90vh] pb-10 bg-stone-50 flex flex-col justify-center items-center"
+      class="w-full h-max lg:h-[94vh] pb-10 bg-stone-50 flex flex-col justify-center items-center"
     >
       <h1 class="sm:text-3xl text-2xl mt-10 font-bold text-stone-600">
         Why choose us?
@@ -160,7 +159,7 @@
         </div>
       </div>
     </section>
-    <section class="flex flex-col-reverse lg:flex-row h-max lg:h-[80vh] w-full">
+    <section class="flex flex-col-reverse lg:flex-row h-max lg:h-[94vh] w-full">
       <div
         class="bg-[url(./assets/Family_cooking.webp)] bg-cover bg-left w-[100%] h-[400px] lg:h-[100%] lg:w-[50%]"
       ></div>
@@ -202,6 +201,25 @@
           Learn more
         </button>
       </div>
+    </section>
+    <section class="w-full h-max p-4  bg-[#fff] flex flex-col py-10 justify-center items-center">
+      <h1 class="text-[25px] text-center lg:w-[50%] py-4 text-[#484848] font-extrabold">Ready to cook healthy & inspiring meals?</h1>
+      <p class="lg:w-[50%] text-center text-[#797775] ">Choose from 24+ recipes every week - from light, low-calorie dishes to hearty, family favourites. Look out for our handy recipe tags to make choosing even simpler.</p>
+      <div class="flex w-full flex-col lg:flex-row h-max py-8 justify-center gap-8 items-center">
+        <div class="bg-red-200 relative w-[90%] lg:w-[22%] h-[160px] rounded-lg">
+          <img class="w-full h-[100%] rounded-lg" src="./assets/vegan.webp" alt="">
+          <p class="px-2 text-sm py-1 bg-[#D8F4A4] rounded-lg text-[#7BAF71] absolute top-[76%] right-[10px]">vegan</p>
+        </div>
+        <div class="bg-red-200 relative lg:w-[22%] w-[90%] h-[160px] rounded-lg">
+          <img class="w-full h-[100%] rounded-lg" src="./assets/weekly_classic.webp" alt="">
+          <p class="px-2 py-1 text-sm bg-[#D9E3FE] rounded-lg text-[#73AAEB] absolute top-[76%] right-[10px]">Weekly Classic</p>
+        </div>
+        <div class="bg-red-200 relative lg:w-[22%] w-[90%] h-[160px] rounded-lg">
+          <img class="w-full h-[100%] rounded-lg" src="./assets/Vegetarian.webp" alt="">
+          <p class="px-2 py-1 text-sm bg-[#C8F5DA] rounded-lg text-[#66C9CA] absolute top-[76%] right-[10px]">Vegetarian</p>
+        </div>
+      </div>
+      <button class="bg-[#e42a11] rounded-full px-6 py-3 text-[#fff] font-semibold hover:bg-red-700 transition duration-300 ease-in-out">View Menu</button>
     </section>
     <section
       class="flex flex-col items-center justify-center p-4 h-max lg:h-[120vh] w-full bg-[#F3F4F6]"
@@ -261,7 +279,7 @@
       <!-- <div class="rounded-lg w-[70%] hover:border-solid border-[1px] hover:border-[#e42a11] transition ease-in-out h-[100px] mt-10 cursor-pointer bg-[#fff]"></div> -->
     </section>
     <section
-      class="bg-[#FFF4EE] lg:bg-[url(./assets/subscribe.webp)] pt-4 pb-6 flex flex-col gap-10 justify-center items-center bg-cover bg-left w-full h-max lg:h-[80vh]"
+      class="bg-[#FFF4EE] lg:bg-[url(./assets/subscribe.webp)] pt-4 pb-6 flex flex-col gap-10 justify-center items-center bg-cover bg-bottom bg-left w-full h-max lg:h-[90vh]"
     >
       <div class="lg:w-[65%] w-[85%] h-[50%] bg-[#fff] rounded-lg p-4">
         <h2
@@ -278,7 +296,7 @@
             <label class="text-[12px] text-stone-500" for="email"
               >Email address</label
             ><input
-              class="border-solid w-36 lg:w-[280px] border-stone-300 border-[1px] p-2 rounded-l-lg"
+              class="border-solid focus:outline focus:border-none focus:outline-[#e42a11] focus:outline-[0.5px] w-36 lg:w-[280px] border-stone-300 border-[1px] p-2 rounded-l-lg"
               id="email"
               type="email"
             />
@@ -300,7 +318,7 @@
       </p>
     </section>
     <section
-      class="w-full h-max lg:h-[80vh] bg-[#FAFAFA] flex flex-col items-center justify-center"
+      class="w-full h-max lg:h-[82vh] bg-[#FAFAFA] flex flex-col items-center justify-center"
     >
       <h2 class="text-2xl ml-2 lg:ml-9 font-extrabold text-[#e42a11]">
         hell&oacute;<span class="ml-[1.5px]">chef</span>
